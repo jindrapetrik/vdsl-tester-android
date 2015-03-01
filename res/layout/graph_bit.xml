@@ -1,0 +1,12 @@
+<com.jpexs.vdsltester.view.GraphView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/graphBit"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@android:color/white"
+    android:padding="10dp"
+    custom:max="15"
+    custom:min="0" 
+    custom:unit="@string/bits"
+    custom:value="bits"  />

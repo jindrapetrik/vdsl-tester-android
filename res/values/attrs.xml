@@ -1,0 +1,18 @@
+<resources>
+    <declare-styleable name="GraphView">
+        <attr name="min" format="float"/>
+        <attr name="max" format="float"/>
+        <attr name="unit" format="string"/>
+        <attr name="value" format="string"/>
+	</declare-styleable>	
+	<declare-styleable name="RulerView">
+        <attr name="rulerMin" format="integer"/>
+        <attr name="rulerMax" format="integer"/>
+        <attr name="stepCount" format="integer"/>
+        <attr name="valueType" format="string"/>
+        <attr name="valueName" format="string"/>
+        <attr name="mode" format="string"/>
+        <attr name="rulerHeight" format="integer"/>
+        <attr name="rulerWidth" format="integer"/>
+	</declare-styleable>
+</resources>

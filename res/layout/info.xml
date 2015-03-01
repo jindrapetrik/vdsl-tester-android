@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:stretchColumns="1,3" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/modemLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modemLabel"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/modemTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:padding="5dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/modeLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modeLabel"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/modeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:padding="5dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginRight="15dp" />           
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/profileLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profileLabel"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/profileTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:padding="5dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/typeLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/typeLabel"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/typeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:padding="5dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginRight="15dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/wanIPLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wanIPLabel"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/wanIPTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:padding="5dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/reconnectLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reconnectLabel"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/reconnectTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:padding="5dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginRight="15dp" />
+        </TableRow>
+
+        <LinearLayout
+            android:id="@+id/tableRow6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/SWVersionLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SWVersionLabel"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/SWVersionTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:padding="5dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/upTimeLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upTimeLabel"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/upTimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:padding="5dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/linkTimeLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linkTimeLabel"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/linkTimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:padding="5dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" 
+                android:layout_marginRight="15dp"/>
+        </TableRow>
+
+        <LinearLayout
+            android:id="@+id/tableRow10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="1,2,3,4,5,6" >
+
+                <TableRow
+                    android:id="@+id/tableRow10_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip" >
+
+                    <TextView />
+
+                    <TextView
+                        android:id="@+id/currentSpeedLabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/currentSpeedLabel"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/maxSpeedLabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/maxSpeedLabel"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/snrmLabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/snrmLabel"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/delayLabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/delayLabel"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/inpLabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/inpLabel"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/powerLabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/powerLabel"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow10_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/usLabelTextView"
+                        android:text="@string/usLabel"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/currentSpeedUSTextView"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dip"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/maxSpeedUSTextView"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dip"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/snrmUSTextView"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dip"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/delayUSTextView"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dip"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/inpUSTextView"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dip"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/powerUSTextView"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dip"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" 
+                        android:layout_marginRight="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow10_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/dsLabelTextView"
+                        android:text="@string/dsLabel"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/currentSpeedDSTextView"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dip"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/maxSpeedDSTextView"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dip"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/snrmDSTextView"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dip"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/delayDSTextView"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dip"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/inpDSTextView"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dip"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/powerDSTextView"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dip"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" 
+                        android:layout_marginRight="15dp"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="1,2,3,4,5,6,7"  >
+
+                <TableRow
+                    android:id="@+id/tableRow11_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip" >
+
+                    <TextView />
+
+                    <TextView
+                        android:id="@+id/u0LabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/u0Label"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/d1LabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/d1Label"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/u1LabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/u1Label"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/d2LabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/d2Label"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/u2LabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/u2Label"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/d3LabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/d3Label"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/u3LabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/u3Label"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow11_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/latnLabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/latnLabel"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/latnU0TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/latnD1TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/latnU1TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/latnD2TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/latnU2TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/latnD3TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/latnU3TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_marginRight="10dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow11_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/satnLabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/satnLabel"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/satnU0TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/satnD1TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/satnU1TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/satnD2TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/satnU2TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/satnD3TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/satnU3TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" 
+                        android:layout_marginRight="10dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow11_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/snrmTabLabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/snrmLabel"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/snrmU0TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/snrmD1TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/snrmU1TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/snrmD2TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/snrmU2TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/snrmD3TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/snrmU3TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" 
+                        android:layout_marginRight="10dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow11_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/powerTabLabelTextView"
+                        android:padding="5dip"
+                        android:text="@string/powerLabel"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/powerU0TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/powerD1TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/powerU1TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/powerD2TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/powerU2TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/powerD3TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/powerU3TextView"
+                        android:background="@drawable/cell_shape"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge" 
+                        android:layout_marginRight="10dp" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </TableLayout>
+
+</ScrollView>
